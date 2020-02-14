@@ -19,4 +19,3 @@ def qigua():
     gua = str(top) + str(middle) + str(bottom)
     return gua_dict.get(gua)
 
-print(qigua())
