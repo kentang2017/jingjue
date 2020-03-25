@@ -8,6 +8,8 @@
 
 "Jingjue" is an ancient chinese divination method which is similar as Ichingshifa found from a bunch of bamboo slips relics from Xihan dynasty collected by Peking University, consisting of sixteen Gua("卦"). Similar as ichingshifa, Jingjue is about 30 stalks to do divination. The stalks will be seperated into 3 bunches and the remainders of these three bunches taken out to form Gua("卦").
 
+![alt text](https://github.com/kentang2017/jingjue/blob/master/data/pic.png?raw=true)
+
 
 ## **2. 安裝套件**
 
