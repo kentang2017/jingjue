@@ -37,4 +37,6 @@ with pan:
     st.header('排盤')
     output = st.empty()
     with st_capture(output.code):
-        print(jingjue.qigua())
+        print("干卦︰"+jingjue.qigua()[0])
+        print("")
+        print("卦義︰"+jingjue.qigua()[1])
