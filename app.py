@@ -28,16 +28,6 @@ def get_file_content_as_string1(path):
 
 st.set_page_config(layout="wide",page_title="堅荊訣占")
 pan,links = st.tabs([' 排盤 ', ' 連結 ' ])
-with st.sidebar:
-    pp_date=st.date_input("日期",pdlm.now(tz='Asia/Shanghai').date())
-    pp_time=st.time_input("時間",pdlm.now(tz='Asia/Shanghai').time())
-    p = str(pp_date).split("-")
-    pp = str(pp_time).split(":")
-    y = int(p[0])
-    m = int(p[1])
-    d = int(p[2])
-    h = int(pp[0])
-    min = int(pp[1])
 
 with links:
     st.header('連結')
