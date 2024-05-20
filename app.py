@@ -31,7 +31,7 @@ pan,links = st.tabs([' 排盤 ', ' 連結 ' ])
 
 with links:
     st.header('連結')
-    st.markdown(get_file_content_as_string1("update.md"))
+    st.markdown(get_file_content_as_string1("update.md"), unsafe_allow_html=True)
     
 with pan:
     st.header('排盤')
