@@ -1,5 +1,6 @@
- <img src="https://github.com/kentang2017/jingjue/blob/master/pic/jingjue.png" alt="iching" style="max-width: 100%; height: auto;">
+
 # **Python Jingjue 荊訣**
+ <img src="https://github.com/kentang2017/jingjue/blob/master/pic/jingjue.png" alt="jingjue" style="max-width: 100%; height: auto;">
 
 [![Python](https://img.shields.io/pypi/pyversions/jingjue)](https://pypi.org/project/jingjue/)
 [![PIP](https://img.shields.io/pypi/v/jingjue)](https://pypi.org/project/jingjue/)
