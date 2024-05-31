@@ -1,4 +1,4 @@
-
+ <img src="https://github.com/kentang2017/jingjue/blob/master/pic/jingjue.png" alt="iching" style="max-width: 100%; height: auto;">
 # **Python Jingjue 荊訣**
 
 [![Python](https://img.shields.io/pypi/pyversions/jingjue)](https://pypi.org/project/jingjue/)
