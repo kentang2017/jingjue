@@ -15,23 +15,23 @@ def st_capture(output_func):
             return ret
         stdout.write = new_write
         yield
-        
-def get_file_content_as_string(path):
-    url = 'https://raw.githubusercontent.com/kentang2017/kinqimen/master/' + path
-    response = urllib.request.urlopen(url)
-    return response.read().decode("utf-8")
 
-def get_file_content_as_string1(path):
+def get_file_content_as_string(path):
     url = 'https://raw.githubusercontent.com/kentang2017/kinliuren/master/' + path
-    response = urllib.request.urlopen(url)
-    return response.read().decode("utf-8")
+    try:
+        response = urllib.request.urlopen(url)
+        return response.read().decode("utf-8")
+    except urllib.error.URLError:
+        return ""
 
 st.set_page_config(layout="wide",page_title="堅荊訣占")
 pan,links = st.tabs([' 排盤 ', ' 連結 ' ])
 
 with links:
     st.header('連結')
-    st.markdown(get_file_content_as_string1("update.md"), unsafe_allow_html=True)
+    content = get_file_content_as_string("update.md")
+    if content:
+        st.markdown(content, unsafe_allow_html=True)
     
 with pan:
     st.header('排盤')
